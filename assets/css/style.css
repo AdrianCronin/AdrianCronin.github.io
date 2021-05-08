@@ -4,3 +4,8 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+/* made a class for containers to display in rows */
+  .row {
+    display: flex;
+  }
