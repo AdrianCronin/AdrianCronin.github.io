@@ -9,3 +9,20 @@
   .row {
     display: flex;
   }
+
+/* make navbar single row and remove bullets */
+  nav ul {
+    display: inline-flex;
+    list-style: none;
+  }
+
+/* adds padding to list items */
+  nav ul li {
+    padding: 5px;
+  }
+
+/* adds padding to header and makes content move to the outsides */
+  header {
+    justify-content: space-between;
+    padding: 20px;
+  }
