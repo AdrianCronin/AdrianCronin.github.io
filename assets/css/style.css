@@ -6,8 +6,10 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
+/* set background color and optimize layout for mobile */
 body {
   background-color: #EEEEF7;
+  flex-direction: column;
 }
 
 /* made a class for containers to display in rows */
@@ -44,7 +46,9 @@ body {
     color: #92CCCE;
   }
 
-  @media screen and (max-width: 768px) {
+
+  /* commenting this out for testing */
+  /* @media screen and (max-width: 768px) {
     body, header {
       flex-direction: column;
     }
@@ -57,4 +61,4 @@ body {
       justify-content: center;
       align-items: center;
     }
-  }
+  } */
