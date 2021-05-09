@@ -51,6 +51,7 @@ nav ul li {
   padding: 10px;
 }
 
+/* this is the background image */
 #coolSub {
   height: 200px;
   width: 100%;
@@ -59,8 +60,8 @@ nav ul li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 #coolSub h2 {
