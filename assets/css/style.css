@@ -79,6 +79,7 @@ main {
 
 main section, main section ul {
   flex-direction: column;
+  list-style: none;
 }
 
 main section, main h1, main hr {
