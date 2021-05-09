@@ -72,7 +72,13 @@ nav ul li {
 
 main {
   flex-direction: column;
-  width: 80%;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+main section {
+  flex-direction: column;
 }
 
 main section, main h1, main hr {
