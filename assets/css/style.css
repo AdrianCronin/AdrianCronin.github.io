@@ -26,5 +26,10 @@
   header {
     justify-content: space-between;
     padding: 20px;
-    background-color: #6a8d73;
+    background-color: #92CCCE;
+    color: #31343D;
+  }
+
+  header a {
+    color: #31343D;
   }
