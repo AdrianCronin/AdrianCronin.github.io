@@ -34,6 +34,11 @@ body {
     background-color: #31343D;
   }
 
+  header h1 {
+    background-color: #92CCCE;
+    color: #31343D;
+  }
+
   header a {
     color: #92CCCE;
   }
