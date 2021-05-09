@@ -4,49 +4,48 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+}
 
-/* made a class for containers to display in a column */
-  .container {
+/* made a class for containers to be flexboxes and display in a column */
+.container {
     display: flex;
     flex-direction: column;
-  }
+}
 
 /* set background color and optimize layout for mobile */
 body {
   background-color: #EEEEF7;
 }
 
-  /* sets header and navbar colors and padding */
-  header {
-    color: #92CCCE;
-    background-color: #31343D;
-    align-items: center;
-  }
+/* sets header and navbar colors and padding */
+header {
+  color: #92CCCE;
+  background-color: #31343D;
+  align-items: center;
+}
 
-  header h1 {
-    background-color: #92CCCE;
-    color: #31343D;
-  }
+header h1 {
+  background-color: #92CCCE;
+  color: #31343D;
+}
 
-  header a {
-    color: #92CCCE;
-  }
-
+header a {
+  color: #92CCCE;
+}
 
 /* make navbar single row and remove bullets */
-  nav ul {
-    display: inline-flex;
-    list-style: none;
-  }
+nav ul {
+  display: inline-flex;
+  list-style: none;
+}
 
 /* adds padding to navbar list items */
-  nav ul li {
-    padding: 5px;
-  }
+nav ul li {
+  padding: 5px;
+}
 
-  /* commenting this out for testing */
-  /* @media screen and (max-width: 768px) {
+/* commenting this out for testing */
+/* @media screen and (max-width: 768px) {
     body, header {
       flex-direction: column;
     }
