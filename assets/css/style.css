@@ -6,6 +6,10 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
+body {
+  background-color: #EEEEF7;
+}
+
 /* made a class for containers to display in rows */
   .row {
     display: flex;
@@ -26,10 +30,10 @@
   header {
     justify-content: space-between;
     padding: 20px;
-    background-color: #92CCCE;
-    color: #31343D;
+    color: #92CCCE;
+    background-color: #31343D;
   }
 
   header a {
-    color: #31343D;
+    color: #92CCCE;
   }
