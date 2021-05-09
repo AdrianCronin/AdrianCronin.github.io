@@ -70,19 +70,19 @@ nav ul li {
   margin: 0px 5% 10px 0;
 }
 
-main {
+main, footer {
   flex-direction: column;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
 }
 
-main section, main section ul {
+main section, main section ul, footer section ul {
   flex-direction: column;
   list-style: none;
 }
 
-main section, main h1, main hr {
+main section, main h1, main hr, footer h1, footer hr {
   margin-bottom: 10px;
 }
 
