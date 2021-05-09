@@ -59,6 +59,13 @@ nav ul li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#coolSub h2 {
+  background-color: #92CCCE;
+  color: #31343D;
 }
 /* commenting this out for testing */
 /* @media screen and (max-width: 768px) {
