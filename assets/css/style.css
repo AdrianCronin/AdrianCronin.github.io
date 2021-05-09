@@ -29,7 +29,7 @@ body {
 /* adds padding to header and makes content move to the outsides */
   header {
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 0px;
     color: #92CCCE;
     background-color: #31343D;
   }
