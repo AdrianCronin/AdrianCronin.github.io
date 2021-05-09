@@ -9,12 +9,12 @@
 /* made a class for containers to be flexboxes and display in a column */
 .container {
     display: flex;
-    flex-direction: column;
 }
 
 /* set background color and optimize layout for mobile */
 body {
   background-color: #EEEEF7;
+  flex-direction: column;
 }
 
 /* sets header and navbar colors and padding */
@@ -22,11 +22,11 @@ header {
   color: #92CCCE;
   background-color: #31343D;
   align-items: center;
+  flex-direction: column;
 }
 
 header div {
   background-color: #92CCCE;
-  display: flex;
   width: 100%;
   justify-content: center;
 }
