@@ -51,6 +51,15 @@ nav ul li {
   padding: 10px;
 }
 
+#coolSub {
+  height: 200px;
+  width: 100%;
+  /* margin-bottom: 25px; */
+  background-image: url("/assets/images/coolSub.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /* commenting this out for testing */
 /* @media screen and (max-width: 768px) {
     body, header {
