@@ -55,13 +55,13 @@ nav ul li {
 #coolSub {
   height: 200px;
   width: 100%;
-  /* margin-bottom: 25px; */
   background-image: url("/assets/images/coolSub.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   align-items: flex-end;
   justify-content: flex-end;
+  margin-bottom: 20px;
 }
 
 #coolSub h2 {
@@ -69,6 +69,17 @@ nav ul li {
   color: #31343D;
   margin: 0px 5% 10px 0;
 }
+
+main {
+  flex-direction: column;
+  width: 80%;
+}
+
+main section, main h1, main hr {
+  margin-bottom: 10px;
+}
+
+
 /* commenting this out for testing */
 /* @media screen and (max-width: 768px) {
     body, header {
