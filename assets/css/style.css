@@ -24,8 +24,14 @@ header {
   align-items: center;
 }
 
-header h1 {
+header div {
   background-color: #92CCCE;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+header h1 {
   color: #31343D;
 }
 
