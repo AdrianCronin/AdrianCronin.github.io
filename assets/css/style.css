@@ -6,16 +6,33 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
+/* made a class for containers to display in a column */
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
 /* set background color and optimize layout for mobile */
 body {
   background-color: #EEEEF7;
-  flex-direction: column;
 }
 
-/* made a class for containers to display in rows */
-  .row {
-    display: flex;
+  /* sets header and navbar colors and padding */
+  header {
+    color: #92CCCE;
+    background-color: #31343D;
+    align-items: center;
   }
+
+  header h1 {
+    background-color: #92CCCE;
+    color: #31343D;
+  }
+
+  header a {
+    color: #92CCCE;
+  }
+
 
 /* make navbar single row and remove bullets */
   nav ul {
@@ -27,25 +44,6 @@ body {
   nav ul li {
     padding: 5px;
   }
-
-/* adds padding to header and makes content move to the outsides */
-  header {
-    justify-content: space-between;
-    padding: 20px 0px;
-    color: #92CCCE;
-    background-color: #31343D;
-  }
-
-  header h1 {
-    background-color: #92CCCE;
-    color: #31343D;
-    padding-left: 40px;
-  }
-
-  header a {
-    color: #92CCCE;
-  }
-
 
   /* commenting this out for testing */
   /* @media screen and (max-width: 768px) {
