@@ -17,7 +17,7 @@ body {
   flex-direction: column;
 }
 
-/* sets header and navbar colors and padding */
+/* sets header and navbar colors and alignment */
 header {
   color: #92CCCE;
   background-color: #31343D;
@@ -25,6 +25,7 @@ header {
   flex-direction: column;
 }
 
+/* centers the top banner */
 header div {
   background-color: #92CCCE;
   width: 100%;
@@ -47,7 +48,7 @@ nav ul {
 
 /* adds padding to navbar list items */
 nav ul li {
-  padding: 5px;
+  padding: 10px;
 }
 
 /* commenting this out for testing */
