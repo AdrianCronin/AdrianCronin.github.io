@@ -97,7 +97,13 @@ main section, main h1, main hr, footer h1, footer hr {
 .box {
   border: 2px solid black;
   margin: 5px 0px;
+  width: 95%;
 }
+
+ul.container {
+  align-items: center;
+}
+
 
 
 /* commenting this out for testing */
