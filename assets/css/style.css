@@ -131,12 +131,39 @@ footer section ul li {
   text-underline-offset: 5px;
 }
 
-#ledWall{
+#surf {
+  background-image: url("/assets/images/sunset.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#ledWall {
   background-image: url("/assets/images/ledwall.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 20px;
+}
+
+#calculator {
+  background-image: url("/assets/images/coding.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pastel {
+  background-image: url("/assets/images/pastel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#runbuddy {
+  background-image: url("/assets/images/runbuddy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* commenting this out for testing */
