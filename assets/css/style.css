@@ -17,6 +17,7 @@
 /* made a class for containers to be flexboxes and display in a column */
 .container {
     display: flex;
+    flex-direction:column;
 }
 
 /* links dont change color */
@@ -84,8 +85,8 @@ footer li a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
   margin-bottom: 25px;
 }
 
