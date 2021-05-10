@@ -73,8 +73,8 @@ nav ul li {
 }
 
 hr {
-  color: var(--blue);
-  border: 1px solid var(--blue);
+  background-color: var(--blue);
+  height: 5px;
 }
 
 #coolSub h2 {
