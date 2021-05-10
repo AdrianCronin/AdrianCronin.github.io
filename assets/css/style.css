@@ -59,6 +59,16 @@ nav ul li {
   padding: 10px;
 }
 
+header li a {
+  text-decoration: none;
+  border-bottom: 4px solid var(--green);
+}
+
+footer li a {
+  text-decoration: none;
+  border-bottom: 4px solid var(--blue);
+}
+
 /* this is the background image */
 #coolSub {
   height: 200px;
@@ -128,7 +138,6 @@ main section ul div {
 
 footer section ul li {
   padding: 5px;
-  text-underline-offset: 5px;
 }
 
 #surf {
