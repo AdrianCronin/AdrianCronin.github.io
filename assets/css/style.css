@@ -131,6 +131,14 @@ footer section ul li {
   text-underline-offset: 5px;
 }
 
+#ledWall{
+  background-image: url("/assets/images/ledwall.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
 /* commenting this out for testing */
 /* @media screen and (max-width: 768px) {
     body, header {
