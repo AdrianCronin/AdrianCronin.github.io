@@ -64,6 +64,10 @@ nav ul li {
   margin-bottom: 20px;
 }
 
+hr {
+  border: 1px solid black;
+}
+
 #coolSub h2 {
   background-color: #92CCCE;
   color: #31343D;
