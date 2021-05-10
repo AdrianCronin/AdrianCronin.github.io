@@ -21,31 +21,31 @@
 
 /* set background color and optimize layout for mobile */
 body {
-  background-color: #EEEEF7;
+  background-color: var(--white);
   flex-direction: column;
 }
 
 /* sets header and navbar colors and alignment */
 header {
-  color: #92CCCE;
-  background-color: #31343D;
+  color: var(--green);
+  background-color: var(--grey);
   align-items: center;
   flex-direction: column;
 }
 
 /* centers the top banner */
 header div {
-  background-color: #92CCCE;
+  background-color: var(--green);
   width: 100%;
   justify-content: center;
 }
 
 header h1 {
-  color: #31343D;
+  color: var(--grey);
 }
 
 header a {
-  color: #92CCCE;
+  color: var(--green);
 }
 
 /* make navbar single row and remove bullets */
@@ -73,12 +73,13 @@ nav ul li {
 }
 
 hr {
-  border: 1px solid black;
+  color: var(--blue);
+  border: 1px solid var(--blue);
 }
 
 #coolSub h2 {
-  background-color: #92CCCE;
-  color: #31343D;
+  background-color: var(--green);
+  color: var(--grey);
   margin: 0px 5% 10px 0;
 }
 
@@ -100,13 +101,15 @@ main section, main section ul, footer section ul {
 
 main section, main h1, main hr, footer h1, footer hr {
   margin-bottom: 10px;
+  color: var(--blue)
 }
 
 .box {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: #92CCCE;
+  background-color: var(--green);
+  color: var(--grey);
   padding: 5px;
   margin-bottom: 5px;
   margin-top: 20px;
@@ -117,7 +120,7 @@ ul.container {
 }
 
 main section ul div {
-  border: 3px solid #92CCCE;
+  border: 3px solid var(--green);
   margin: 5px 0px;
   width: 95%;
   background-color: #8494A3;
