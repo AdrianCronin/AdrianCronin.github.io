@@ -6,6 +6,13 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* setting variables for colors */
+:root {
+  --white: #EEEEF7;
+  --green: #92CCCE;
+  --grey: #31343D;
+}
+
 /* made a class for containers to be flexboxes and display in a column */
 .container {
     display: flex;
