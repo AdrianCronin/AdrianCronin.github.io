@@ -103,14 +103,12 @@ hr {
   padding: 5px;
 }
 
+/* sets the main body and the footer flex, width and margins */
 main, footer {
   flex-direction: column;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-}
-
-footer {
   margin-bottom: 20px;
 }
 
