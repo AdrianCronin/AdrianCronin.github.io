@@ -126,6 +126,11 @@ main section ul div {
   background-color: #8494A3;
 }
 
+footer section ul li {
+  padding: 5px;
+  text-underline-offset: 5px;
+}
+
 /* commenting this out for testing */
 /* @media screen and (max-width: 768px) {
     body, header {
