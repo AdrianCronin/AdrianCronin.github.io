@@ -19,6 +19,7 @@
     display: flex;
 }
 
+/* links dont change color */
 a:visited {
   text-decoration: none;
 }
@@ -44,10 +45,12 @@ header div {
   justify-content: center;
 }
 
+/* set font color for main banner */
 header h1 {
   color: var(--grey);
 }
 
+/* set font color of the links in the navbar */
 header a {
   color: var(--green);
 }
@@ -63,17 +66,17 @@ nav ul li {
   padding: 10px;
 }
 
+/* makes underlines in top and bottom links thicker */
 header li a {
   text-decoration: none;
   border-bottom: 4px solid var(--green);
 }
-
 footer li a {
   text-decoration: none;
   border-bottom: 4px solid var(--blue);
 }
 
-/* this is the background image */
+/* this is the background image. makes the cool subtitle on the bottom and centered*/
 #coolSub {
   height: 200px;
   width: 100%;
@@ -82,19 +85,22 @@ footer li a {
   background-repeat: no-repeat;
   background-position: center;
   align-items: flex-end;
-  justify-content: flex-end;
-  margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 25px;
 }
 
+/* makes the horizontal lines thicker and blue */
 hr {
   background-color: var(--blue);
   height: 5px;
 }
 
+/* sets the background/font color, padding and bottom margin of the subtitle */
 #coolSub h2 {
   background-color: var(--green);
   color: var(--grey);
-  margin: 0px auto 5px auto;
+  margin-bottom: 5px;
+  padding: 5px;
 }
 
 main, footer {
