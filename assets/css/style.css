@@ -127,6 +127,7 @@ main section, main h1, main hr, footer h1, footer hr {
   color: var(--blue)
 }
 
+/* these are the boxes inside the boxes with the backgrounds */
 .box {
   display: flex;
   flex-direction: column;
