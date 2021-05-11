@@ -171,30 +171,18 @@ footer li a {
 
 #ledWall {
   background-image: url("/assets/images/ledwall.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #calculator {
   background-image: url("/assets/images/coding.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #pastel {
   background-image: url("/assets/images/pastel.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #runbuddy {
   background-image: url("/assets/images/runbuddy.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /* commenting this out for testing */
