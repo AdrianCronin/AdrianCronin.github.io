@@ -107,9 +107,8 @@ hr {
   padding: 5px;
 }
 
-/* sets the main body and the footer flex, width and margins */
+/* sets the main body and footer to fill 90% of the body and the widths and margins */
 main, footer {
-  flex-direction: column;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
