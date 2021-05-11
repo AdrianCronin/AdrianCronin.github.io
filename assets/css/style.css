@@ -81,6 +81,10 @@ footer li a {
   border-bottom: 4px solid var(--blue);
 }
 
+.work {
+  display: flex;
+}
+
 /* this is the background image. makes the cool subtitle on the bottom and centered*/
 #coolSub {
   height: 200px;
