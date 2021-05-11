@@ -81,10 +81,6 @@ footer li a {
   border-bottom: 4px solid var(--blue);
 }
 
-.work {
-  display: flex;
-}
-
 /* this is the background image. makes the cool subtitle on the bottom and centered*/
 #coolSub {
   height: 200px;
@@ -161,11 +157,16 @@ footer li a {
   color: var(--blue);
 }
 
-#surf {
-  background-image: url("/assets/images/sunset.jpg");
+/* this will make the squares and the backgrounds */
+.work {
+  display: flex;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#surf {
+  background-image: url("/assets/images/sunset.jpg");
 }
 
 #ledWall {
