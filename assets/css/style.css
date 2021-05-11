@@ -35,12 +35,11 @@ body {
   flex-direction: column;
 }
 
-/* sets header and navbar colors and alignment */
+/* sets header and navbar colors and centers the navbar list */
 header {
   color: var(--green);
   background-color: var(--grey);
   align-items: center;
-  flex-direction: column;
 }
 
 /* centers the top banner */
