@@ -42,7 +42,7 @@ header {
   align-items: center;
 }
 
-/* centers the top banner */
+/* centers the top banner text */
 header div {
   background-color: var(--green);
   width: 100%;
