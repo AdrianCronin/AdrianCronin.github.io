@@ -115,6 +115,7 @@ main, footer {
   margin-bottom: 20px;
 }
 
+/* CHECKPOINT - TESTING REMOVING THIS CODE */
 main section, main section ul, footer section ul {
   flex-direction: column;
   list-style: none;
