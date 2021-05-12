@@ -17,6 +17,11 @@
 /* made a class for containers to be flexboxes and display in a column */
 .container {
     display: flex;
+    flex-direction:column;
+}
+
+#banner {
+  flex-direction: row;
 }
 
 /* links dont change color */
@@ -28,17 +33,17 @@ a:visited {
 body {
   background-color: var(--white);
   flex-direction: column;
+  min-width: 320px;
 }
 
-/* sets header and navbar colors and alignment */
+/* sets header and navbar colors and centers the navbar list */
 header {
   color: var(--green);
   background-color: var(--grey);
   align-items: center;
-  flex-direction: column;
 }
 
-/* centers the top banner */
+/* centers the top banner text */
 header div {
   background-color: var(--green);
   width: 100%;
@@ -69,11 +74,12 @@ nav ul li {
 /* makes underlines in top and bottom links thicker */
 header li a {
   text-decoration: none;
-  border-bottom: 4px solid var(--green);
+  border-bottom: 3px solid var(--green);
 }
 footer li a {
   text-decoration: none;
-  border-bottom: 4px solid var(--blue);
+  border-bottom: 3px solid var(--blue);
+  color: var(--blue);
 }
 
 /* this is the background image. makes the cool subtitle on the bottom and centered*/
@@ -84,15 +90,9 @@ footer li a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
   margin-bottom: 25px;
-}
-
-/* makes the horizontal lines thicker and blue */
-hr {
-  background-color: var(--blue);
-  height: 5px;
 }
 
 /* sets the background/font color, padding and bottom margin of the subtitle */
@@ -103,25 +103,31 @@ hr {
   padding: 5px;
 }
 
-/* sets the main body and the footer flex, width and margins */
+section h1 {
+  border-bottom: 3px solid var(--blue);
+  padding-bottom: 3px;
+}
+
+/* sets the main body and footer to fill 90% of the body and the widths and margins */
 main, footer {
-  flex-direction: column;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
 }
 
-main section, main section ul, footer section ul {
-  flex-direction: column;
+/* removes bullets from contact me list */
+footer section ul {
   list-style: none;
 }
 
+/* sets font color and adds margin between the sections */
 main section, main h1, main hr, footer h1, footer hr {
   margin-bottom: 10px;
   color: var(--blue)
 }
 
+/* these are the boxes with text inside */
 .box {
   display: flex;
   flex-direction: column;
@@ -133,58 +139,50 @@ main section, main h1, main hr, footer h1, footer hr {
   margin-top: 20px;
 }
 
+/* centers the boxes */
 ul.container {
   align-items: center;
 }
 
+/* gives the boxes border and margin and makes them slightly smaller than the rest of the sections */
 main section ul div {
   border: 3px solid var(--green);
   margin: 5px 0px;
   width: 95%;
-  background-color: #8494A3;
 }
 
+/* adds padding to the contact me list */
 footer section ul li {
   padding: 5px;
 }
 
-footer li a {
-  color: var(--blue);
-}
-
-#surf {
-  background-image: url("/assets/images/sunset.jpg");
+/* this will make the squares and the backgrounds */
+.work {
+  display: flex;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* these are the background pictures in the boxes */
+#surf {
+  background-image: url("/assets/images/sunset.jpg");
 }
 
 #ledWall {
   background-image: url("/assets/images/ledwall.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #calculator {
   background-image: url("/assets/images/coding.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #pastel {
   background-image: url("/assets/images/pastel.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #runbuddy {
   background-image: url("/assets/images/runbuddy.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /* commenting this out for testing */
