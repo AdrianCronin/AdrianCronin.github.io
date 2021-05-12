@@ -74,11 +74,11 @@ nav ul li {
 /* makes underlines in top and bottom links thicker */
 header li a {
   text-decoration: none;
-  border-bottom: 4px solid var(--green);
+  border-bottom: 3px solid var(--green);
 }
 footer li a {
   text-decoration: none;
-  border-bottom: 4px solid var(--blue);
+  border-bottom: 3px solid var(--blue);
 }
 
 /* this is the background image. makes the cool subtitle on the bottom and centered*/
