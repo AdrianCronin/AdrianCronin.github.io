@@ -79,6 +79,7 @@ header li a {
 footer li a {
   text-decoration: none;
   border-bottom: 3px solid var(--blue);
+  color: var(--blue);
 }
 
 /* this is the background image. makes the cool subtitle on the bottom and centered*/
@@ -150,12 +151,9 @@ main section ul div {
   width: 95%;
 }
 
+/* adds padding to the contact me list */
 footer section ul li {
   padding: 5px;
-}
-
-footer li a {
-  color: var(--blue);
 }
 
 /* this will make the squares and the backgrounds */
