@@ -33,6 +33,7 @@ a:visited {
 body {
   background-color: var(--white);
   flex-direction: column;
+  min-width: 320px;
 }
 
 /* sets header and navbar colors and centers the navbar list */
