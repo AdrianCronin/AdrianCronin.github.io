@@ -120,12 +120,13 @@ footer section ul {
   list-style: none;
 }
 
+/* sets font color and adds margin between the sections */
 main section, main h1, main hr, footer h1, footer hr {
   margin-bottom: 10px;
   color: var(--blue)
 }
 
-/* these are the boxes inside the boxes with the backgrounds */
+/* these are the boxes with text inside */
 .box {
   display: flex;
   flex-direction: column;
@@ -137,15 +138,16 @@ main section, main h1, main hr, footer h1, footer hr {
   margin-top: 20px;
 }
 
+/* centers the boxes */
 ul.container {
   align-items: center;
 }
 
+/* gives the boxes border and margin and makes them slightly smaller than the rest of the sections */
 main section ul div {
   border: 3px solid var(--green);
   margin: 5px 0px;
   width: 95%;
-  background-color: #8494A3;
 }
 
 footer section ul li {
