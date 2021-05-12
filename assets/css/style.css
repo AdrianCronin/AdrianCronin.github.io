@@ -185,18 +185,24 @@ footer section ul li {
   background-image: url("/assets/images/runbuddy.jpg");
 }
 
-/* commenting this out for testing */
-/* @media screen and (max-width: 768px) {
-    body, header {
-      flex-direction: column;
-    }
+/* change for big screens */
+@media screen and (min-width: 768px) {
 
-    header, header h1 {
-      padding: 0px;
-    }
+  /* makes the banner and navbar inline */
+  header.container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* sets  */
+  header .container {
+    width: initial;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin: 5px 0px;
+  }
 
-    header h1 {
-      justify-content: center;
-      align-items: center;
-    }
-  } */
+  nav ul {
+
+  }
+
+}
