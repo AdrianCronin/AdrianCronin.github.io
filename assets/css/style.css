@@ -94,12 +94,6 @@ footer li a {
   margin-bottom: 25px;
 }
 
-/* makes the horizontal lines thicker and blue */
-hr {
-  background-color: var(--blue);
-  height: 5px;
-}
-
 /* sets the background/font color, padding and bottom margin of the subtitle */
 #coolSub h2 {
   background-color: var(--green);
@@ -107,6 +101,13 @@ hr {
   margin-bottom: 5px;
   padding: 5px;
 }
+
+/* makes the horizontal lines thicker and blue */
+hr {
+  background-color: var(--blue);
+  height: 5px;
+}
+
 
 /* sets the main body and footer to fill 90% of the body and the widths and margins */
 main, footer {
