@@ -102,12 +102,10 @@ footer li a {
   padding: 5px;
 }
 
-/* makes the horizontal lines thicker and blue */
-hr {
-  background-color: var(--blue);
-  height: 5px;
+section h1 {
+  border-bottom: 3px solid var(--blue);
+  padding-bottom: 3px;
 }
-
 
 /* sets the main body and footer to fill 90% of the body and the widths and margins */
 main, footer {
