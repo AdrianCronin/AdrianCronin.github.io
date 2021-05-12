@@ -116,9 +116,8 @@ main, footer {
   margin-bottom: 20px;
 }
 
-/* CHECKPOINT - TESTING REMOVING THIS CODE */
-main section ul, footer section ul {
-  flex-direction: column;
+/* removes bullets from contact me list */
+footer section ul {
   list-style: none;
 }
 
