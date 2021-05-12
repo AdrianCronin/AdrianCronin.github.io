@@ -164,6 +164,7 @@ footer section ul li {
   background-position: center;
 }
 
+/* these are the background pictures in the boxes */
 #surf {
   background-image: url("/assets/images/sunset.jpg");
 }
