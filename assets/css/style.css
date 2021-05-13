@@ -201,8 +201,12 @@ footer section ul li {
     margin: 5px 0px;
   }
 
+  /* moves the subtitle from the center to bottom right and moves it away from the right side */
   #coolSub {
     align-items: flex-end;
+  }
+  #coolSub h2 {
+    margin-right: 5%;
   }
 
 }
