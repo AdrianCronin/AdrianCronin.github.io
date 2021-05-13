@@ -99,7 +99,7 @@ footer li a {
 #coolSub h2 {
   background-color: var(--green);
   color: var(--grey);
-  margin-bottom: 5px;
+  margin-bottom: 1%;
   padding: 5px;
 }
 
@@ -201,8 +201,8 @@ footer section ul li {
     margin: 5px 0px;
   }
 
-  nav ul {
-
+  #coolSub {
+    align-items: flex-end;
   }
 
 }
