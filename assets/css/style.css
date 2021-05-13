@@ -193,7 +193,7 @@ footer section ul li {
     flex-direction: row;
     justify-content: space-between;
   }
-  /* sets  */
+  /* resets the banner width and moves it away from the left side a bit */
   header .container {
     width: initial;
     padding-left: 30px;
@@ -207,6 +207,16 @@ footer section ul li {
   }
   #coolSub h2 {
     margin-right: 5%;
+  }
+
+  main section {
+    display: flex;
+  }
+  main section h1 {
+    border-bottom: unset;
+    border-right: 3px solid var(--blue);
+    margin-right: 25px;
+    padding-right: 10px;
   }
 
 }
