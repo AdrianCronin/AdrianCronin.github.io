@@ -220,4 +220,10 @@ footer section ul li {
     padding-right: 10px;
   }
 
+  ul.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+  }
+
 }
