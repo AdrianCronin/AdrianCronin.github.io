@@ -211,14 +211,14 @@ footer section ul li {
 
   /* makes the work sections display  */
   .my-box .column {
-    align-items: stretch;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
   }
 
-  .box {
-
+  .work {
+    margin: 5px;
+    flex-grow: 1;
   }
 
   #surf {
