@@ -29,10 +29,9 @@ a:visited {
   text-decoration: none;
 }
 
-/* set background color and optimize layout for mobile */
+/* set background color and minimum width*/
 body {
   background-color: var(--white);
-  flex-direction: column;
   min-width: 320px;
 }
 
@@ -43,7 +42,7 @@ header {
   align-items: center;
 }
 
-/* centers the top banner text */
+/* centers the top banner text and fills the width*/
 header div {
   background-color: var(--green);
   width: 100%;
@@ -82,7 +81,7 @@ footer li a {
   color: var(--blue);
 }
 
-/* this is the background image. makes the cool subtitle on the bottom and centered*/
+/* this adds the background image. makes the cool subtitle on the bottom and centered*/
 #coolSub {
   height: 200px;
   width: 100%;
