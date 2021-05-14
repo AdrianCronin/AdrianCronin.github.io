@@ -20,7 +20,7 @@
     flex-direction:column;
 }
 
-#banner {
+header .container {
   flex-direction: row;
 }
 
