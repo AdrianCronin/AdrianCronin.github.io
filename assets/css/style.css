@@ -144,24 +144,20 @@ ul.container {
   align-items: center;
 }
 
-/* gives the boxes border and margin and makes them slightly smaller than the rest of the sections */
-main section ul div {
+/* gives the boxes border and margin and makes them slightly smaller than the rest of the sections and adds background images*/
+.work {
   border: 3px solid var(--green);
   margin: 5px 0px;
   width: 95%;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* adds padding to the contact me list */
 footer section ul li {
   padding: 5px;
-}
-
-/* this will make the squares and the backgrounds */
-.work {
-  display: flex;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /* these are the background pictures in the boxes */
