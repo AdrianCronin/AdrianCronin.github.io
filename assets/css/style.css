@@ -135,7 +135,6 @@ main section, main h1, main hr, footer h1, footer hr {
 .box {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   background-color: var(--green);
   color: var(--grey);
   padding: 5px;
