@@ -142,14 +142,21 @@ main section, main h1, main hr, footer h1, footer hr {
   margin-top: 20px;
 }
 
-/* gives the boxes border and margin and makes them slightly smaller than the rest of the sections and adds background images*/
+/* gives the boxes border and margin and makes adds formatting for background images*/
 .work {
   border: 3px solid var(--green);
-  margin: 5px 0px;
+  margin-bottom: 10px;
   display: flex;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 15vh;
+  align-items: flex-end;
+}
+
+/* makes the boxes slightly narrower than the heading */
+.my-box .column {
+  margin: 0px 10px;
 }
 
 /* adds padding to the contact me list */
@@ -201,12 +208,16 @@ footer section ul li {
   /* moves the headings inline with a the content with a vertical line separation */
   main section, footer section {
     display: flex;
+    width: 100%;
   }
   section h1 {
+    display: flex;
+    width: 10%;
     border-bottom: unset;
     border-right: 3px solid var(--blue);
     margin-right: 25px;
     padding-right: 10px;
+    text-align: right;
   }
 
   /* makes the work sections display  */
@@ -214,21 +225,19 @@ footer section ul li {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;
   }
 
   .work {
-    margin: 5px;
-    flex-grow: 1;
+    flex-basis: 49%;
+    align-items: flex-end;
   }
 
   #surf {
+    min-height: 30vh;
     flex-basis: 100%;
   }
 
-  .work {
-    flex-basis: 50%;
-  }
-  
   /* makes contact list inline */
   footer ul {
     display: inline-flex;
