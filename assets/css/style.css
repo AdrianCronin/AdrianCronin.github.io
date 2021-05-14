@@ -110,7 +110,7 @@ footer li a {
 section h1 {
   border-bottom: 3px solid var(--blue);
   padding-bottom: 3px;
-  font-size: larger;
+  font-size: x-large;
 }
 
 /* sets the main body and footer to fill 90% of the body and the widths and margins */
@@ -128,7 +128,7 @@ footer section ul {
 
 /* sets font color and adds margin between the sections */
 main section, main h1, main hr, footer h1, footer hr {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   color: var(--blue)
 }
 
