@@ -20,7 +20,7 @@
     flex-direction:column;
 }
 
-#banner {
+header .container {
   flex-direction: row;
 }
 
@@ -29,10 +29,9 @@ a:visited {
   text-decoration: none;
 }
 
-/* set background color and optimize layout for mobile */
+/* set background color and minimum width*/
 body {
   background-color: var(--white);
-  flex-direction: column;
   min-width: 320px;
 }
 
@@ -43,7 +42,7 @@ header {
   align-items: center;
 }
 
-/* centers the top banner text */
+/* centers the top banner text and fills the width*/
 header div {
   background-color: var(--green);
   width: 100%;
@@ -82,7 +81,7 @@ footer li a {
   color: var(--blue);
 }
 
-/* this is the background image. makes the cool subtitle on the bottom and centered*/
+/* this adds the background image. makes the cool subtitle on the bottom and centered*/
 #coolSub {
   height: 200px;
   width: 100%;
@@ -99,7 +98,7 @@ footer li a {
 #coolSub h2 {
   background-color: var(--green);
   color: var(--grey);
-  margin-bottom: 5px;
+  margin-bottom: 1%;
   padding: 5px;
 }
 
@@ -139,29 +138,24 @@ main section, main h1, main hr, footer h1, footer hr {
   margin-top: 20px;
 }
 
-/* centers the boxes */
+/* adds padding to the boxes */
 ul.container {
-  align-items: center;
+  padding: 10px;
 }
 
-/* gives the boxes border and margin and makes them slightly smaller than the rest of the sections */
-main section ul div {
+/* gives the boxes border and margin and makes them slightly smaller than the rest of the sections and adds background images*/
+.work {
   border: 3px solid var(--green);
   margin: 5px 0px;
-  width: 95%;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* adds padding to the contact me list */
 footer section ul li {
   padding: 5px;
-}
-
-/* this will make the squares and the backgrounds */
-.work {
-  display: flex;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /* these are the background pictures in the boxes */
@@ -185,18 +179,66 @@ footer section ul li {
   background-image: url("/assets/images/runbuddy.jpg");
 }
 
-/* commenting this out for testing */
-/* @media screen and (max-width: 768px) {
-    body, header {
-      flex-direction: column;
-    }
+/* change for big screens */
+@media screen and (min-width: 768px) {
 
-    header, header h1 {
-      padding: 0px;
-    }
+  /* makes the banner and navbar inline */
+  header.container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* resets the banner width and moves it away from the left side a bit */
+  header .container {
+    width: initial;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin: 5px 0px;
+  }
 
-    header h1 {
-      justify-content: center;
-      align-items: center;
-    }
-  } */
+  /* moves the subtitle from the center to bottom right and moves it away from the right side */
+  #coolSub {
+    align-items: flex-end;
+  }
+  #coolSub h2 {
+    margin-right: 5%;
+  }
+
+  /* moves the headings inline with a the content with a vertical line separation */
+  main section, footer section {
+    display: flex;
+  }
+  section h1 {
+    border-bottom: unset;
+    border-right: 3px solid var(--blue);
+    margin-right: 25px;
+    padding-right: 10px;
+  }
+
+  /* makes the work sections display  */
+  ul.container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
+
+  #surf {
+    flex-basis: 100%;
+  }
+
+  .work {
+    flex-basis: 50%;
+  }
+  
+  /* makes contact list inline */
+  footer ul {
+    display: inline-flex;
+  }
+
+  footer section {
+    justify-content: space-between;
+  }
+  
+  footer li {
+    margin: 0px 10px;
+  }
+}
