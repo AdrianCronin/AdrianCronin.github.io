@@ -210,10 +210,10 @@ footer section ul li {
   }
 
   /* moves the headings inline with a the content with a vertical line separation */
-  main section {
+  main section, footer section {
     display: flex;
   }
-  main section h1 {
+  section h1 {
     border-bottom: unset;
     border-right: 3px solid var(--blue);
     margin-right: 25px;
@@ -236,5 +236,17 @@ footer section ul li {
     flex-basis: 50%;
     justify-content: space-between;
   }
+  
+  /* makes contact list inline */
+  footer ul {
+    display: inline-flex;
+  }
 
+  footer section {
+    justify-content: space-between;
+  }
+  
+  footer li {
+    margin: 0px 10px;
+  }
 }
