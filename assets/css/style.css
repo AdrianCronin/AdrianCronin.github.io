@@ -220,9 +220,15 @@ footer section ul li {
     padding-right: 10px;
   }
 
-  ul.container {
-    display: inline-flex;
-    flex-wrap: wrap;
+  .workBox {
+    width: 100%;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+  }
+
+
+
+  ul.container div {
     flex-basis: 50%;
   }
 
