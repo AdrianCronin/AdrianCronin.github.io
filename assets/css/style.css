@@ -15,12 +15,17 @@
 }
 
 /* made a class for containers to be flexboxes and display in a column */
-.container {
+.column {
     display: flex;
     flex-direction:column;
 }
+/* made a class for containers to be flexboxes and display in a row */
+.row {
+  display:flex;
+  flex-direction: row;
+}
 
-header .container {
+header .column {
   flex-direction: row;
 }
 
@@ -139,7 +144,7 @@ main section, main h1, main hr, footer h1, footer hr {
 }
 
 /* adds padding to the boxes */
-ul.container {
+ul.column {
   padding: 10px;
 }
 
@@ -162,19 +167,15 @@ footer section ul li {
 #surf {
   background-image: url("/assets/images/sunset.jpg");
 }
-
 #ledWall {
   background-image: url("/assets/images/ledwall.jpeg");
 }
-
 #calculator {
   background-image: url("/assets/images/coding.jpg");
 }
-
 #pastel {
   background-image: url("/assets/images/pastel.jpg");
 }
-
 #runbuddy {
   background-image: url("/assets/images/runbuddy.jpg");
 }
@@ -183,16 +184,16 @@ footer section ul li {
 @media screen and (min-width: 768px) {
 
   /* makes the banner and navbar inline */
-  header.container {
+  header.column {
     flex-direction: row;
     justify-content: space-between;
   }
   /* resets the banner width and moves it away from the left side a bit */
-  header .container {
+  header .column {
     width: initial;
     padding-left: 30px;
     padding-right: 10px;
-    margin: 5px 0px;
+    margin: 10px 0px;
   }
 
   /* moves the subtitle from the center to bottom right and moves it away from the right side */
@@ -215,7 +216,7 @@ footer section ul li {
   }
 
   /* makes the work sections display  */
-  ul.container {
+  ul.column {
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: 100%;
