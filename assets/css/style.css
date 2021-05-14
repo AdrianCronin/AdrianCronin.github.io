@@ -139,16 +139,15 @@ main section, main h1, main hr, footer h1, footer hr {
   margin-top: 20px;
 }
 
-/* centers the boxes */
+/* adds padding to the boxes */
 ul.container {
-  align-items: center;
+  padding: 10px;
 }
 
 /* gives the boxes border and margin and makes them slightly smaller than the rest of the sections and adds background images*/
 .work {
   border: 3px solid var(--green);
   margin: 5px 0px;
-  width: 95%;
   display: flex;
   background-size: cover;
   background-repeat: no-repeat;
@@ -218,7 +217,6 @@ footer section ul li {
 
   /* makes the work sections display  */
   ul.container {
-    display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: 100%;
