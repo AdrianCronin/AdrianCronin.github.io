@@ -209,6 +209,7 @@ footer section ul li {
     margin-right: 5%;
   }
 
+  /* moves the headings inline with a the content with a vertical line separation */
   main section {
     display: flex;
   }
