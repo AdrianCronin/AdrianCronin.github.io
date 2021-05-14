@@ -228,7 +228,6 @@ footer section ul li {
 
   .work {
     flex-basis: 50%;
-    justify-content: space-between;
   }
   
   /* makes contact list inline */
