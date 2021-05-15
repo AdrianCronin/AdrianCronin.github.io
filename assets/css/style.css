@@ -30,7 +30,7 @@ header .column {
 }
 
 /* links dont change color */
-a:visited {
+a {
   text-decoration: none;
 }
 
@@ -77,11 +77,9 @@ nav ul li {
 
 /* makes underlines in top and bottom links thicker */
 header li a {
-  text-decoration: none;
   border-bottom: 3px solid var(--green);
 }
 footer li a {
-  text-decoration: none;
   border-bottom: 3px solid var(--blue);
   color: var(--blue);
 }
