@@ -19,17 +19,12 @@
     display: flex;
     flex-direction:column;
 }
-/* made a class for containers to be flexboxes and display in a row */
-.row {
-  display:flex;
-  flex-direction: row;
-}
 
 header .column {
   flex-direction: row;
 }
 
-/* links dont change color */
+/* links dont change color and removes default underline */
 a {
   text-decoration: none;
 }
@@ -109,7 +104,7 @@ footer li a {
   opacity: .3;
 }
 
-/* sets the background/font color, padding and bottom margin of the subtitle and pushes it above the blue overlay */
+/* sets the background/font color, padding and bottom margin of the subtitle and pushes it in front of the blue overlay */
 #coolSub h2 {
   background-color: var(--green);
   color: var(--grey);
@@ -118,13 +113,14 @@ footer li a {
   z-index: 100;
 }
 
+/* sets the heading font and makes horizontal separation line */
 section h1 {
   border-bottom: 3px solid var(--blue);
   padding-bottom: 3px;
   font-size: x-large;
 }
 
-/* sets the main body and footer to fill 90% of the body and the widths and margins */
+/* sets the main body and footer to be narrower than the header and centers it on the page */
 main, footer {
   width: 90%;
   margin-right: auto;
@@ -158,7 +154,7 @@ main section, main h1, main hr, footer h1, footer hr {
 /* gives the boxes border and margin and makes adds formatting for background images*/
 .work {
   position: relative;
-  border: 3px solid var(--green);
+  border: 4px solid var(--green);
   margin-bottom: 10px;
   display: flex;
   background-size: cover;
@@ -185,7 +181,7 @@ main section, main h1, main hr, footer h1, footer hr {
   opacity: 0;
 }
 
-/* makes the boxes slightly narrower than the heading */
+/* makes the work boxes slightly narrower than the heading */
 .my-box .column {
   margin: 0px 10px;
 }
@@ -212,7 +208,7 @@ footer section ul li {
   background-image: url("/assets/images/runbuddy.jpg");
 }
 
-/* change for big screens */
+/* change layout for screens bigger then 768px */
 @media screen and (min-width: 768px) {
 
   /* makes the banner and navbar inline */
@@ -220,7 +216,7 @@ footer section ul li {
     flex-direction: row;
     justify-content: space-between;
   }
-  /* resets the banner width and moves it away from the left side a bit */
+  /* resets the banner width and pushes away from the left side a bit */
   header .column {
     width: initial;
     padding-left: 30px;
@@ -228,7 +224,7 @@ footer section ul li {
     margin: 10px 0px;
   }
 
-  /* moves the subtitle from the center to bottom right and moves it away from the right side */
+  /* moves the cool subtitle from the center to bottom right and pushes it away from the right side */
   #coolSub {
     align-items: flex-end;
   }
@@ -236,7 +232,7 @@ footer section ul li {
     margin-right: 5%;
   }
 
-  /* moves the headings inline with a the content with a vertical line separation */
+  /* moves the headings inline with the content with a vertical line separation */
   main section, footer section {
     display: flex;
     width: 100%;
@@ -253,19 +249,18 @@ footer section ul li {
     justify-content: flex-end;
   }
 
-  /* makes the work sections display  */
+  /* makes the work sections display in 2 columns with space between them */
   .my-box .column {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
   }
-
   .work {
     flex-basis: 49%;
     align-items: flex-end;
   }
-
+  /* makes the top work item fill 2 column spaces */
   #surf {
     min-height: 30vh;
     flex-basis: 100%;
@@ -275,11 +270,11 @@ footer section ul li {
   footer ul {
     display: inline-flex;
   }
-
+  /* moves header and contact list away from each other */
   footer section {
     justify-content: space-between;
   }
-  
+  /* adds space between the contact list items */
   footer li {
     margin: 0px 10px;
   }
