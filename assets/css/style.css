@@ -179,6 +179,12 @@ main section, main h1, main hr, footer h1, footer hr {
   opacity: .3;
 }
 
+/* removes blue overlay when hovering */
+.work:hover::before {
+  content: "";
+  opacity: 0;
+}
+
 /* makes the boxes slightly narrower than the heading */
 .my-box .column {
   margin: 0px 10px;
