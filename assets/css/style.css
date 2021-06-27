@@ -192,20 +192,20 @@ footer section ul li {
 }
 
 /* these are the background pictures in the boxes */
-#surf {
-  background-image: url("/assets/images/sunset.jpg");
+#projectOne {
+  background-image: url("../images/thecollector.png");
 }
-#ledWall {
-  background-image: url("/assets/images/ledwall.jpeg");
+#work1 {
+  background-image: url("../images/weatherdash.jpg");
 }
-#calculator {
-  background-image: url("/assets/images/coding.jpg");
+#work2 {
+  background-image: url("../images/workdaysched.jpg");
 }
-#pastel {
-  background-image: url("/assets/images/pastel.jpg");
+#work3 {
+  background-image: url("../images/QuizActive.png");
 }
-#runbuddy {
-  background-image: url("/assets/images/runbuddy.jpg");
+#work4 {
+  background-image: url("../images/passwordgen.jpg");
 }
 
 /* change layout for screens bigger then 768px */
@@ -261,7 +261,7 @@ footer section ul li {
     align-items: flex-end;
   }
   /* makes the top work item fill 2 column spaces */
-  #surf {
+  #projectOne {
     min-height: 30vh;
     flex-basis: 100%;
   }
