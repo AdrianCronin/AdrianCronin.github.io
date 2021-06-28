@@ -2,3 +2,15 @@
   background-color: #212529;
 }
 
+#album-1 {
+  /* position: relative; */
+  /* height: 200px; */
+  /* width: 100%; */
+  background-image: url("../images/screenshot3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* align-items: center; */
+  /* justify-content: flex-end; */
+  /* margin-bottom: 25px; */
+}
