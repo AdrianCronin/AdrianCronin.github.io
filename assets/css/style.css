@@ -192,20 +192,23 @@ footer section ul li {
 }
 
 /* these are the background pictures in the boxes */
-#surf {
-  background-image: url("/assets/images/sunset.jpg");
+#projectOne {
+  background-image: url("../images/thecollector.png");
 }
-#ledWall {
-  background-image: url("/assets/images/ledwall.jpeg");
+#work1 {
+  background-image: url("../images/weatherdash.jpg");
 }
-#calculator {
-  background-image: url("/assets/images/coding.jpg");
+#work2 {
+  background-image: url("../images/workdaysched.jpg");
 }
-#pastel {
-  background-image: url("/assets/images/pastel.jpg");
+
+figure {
+z-index: 100;
 }
-#runbuddy {
-  background-image: url("/assets/images/runbuddy.jpg");
+
+#mugshot {
+  height: 128px;
+  border-radius: 5px;
 }
 
 /* change layout for screens bigger then 768px */
@@ -226,10 +229,13 @@ footer section ul li {
 
   /* moves the cool subtitle from the center to bottom right and pushes it away from the right side */
   #coolSub {
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
   }
   #coolSub h2 {
-    margin-right: 5%;
+    margin-right: 10px;
+    margin-bottom: -150px;
   }
 
   /* moves the headings inline with the content with a vertical line separation */
@@ -261,7 +267,7 @@ footer section ul li {
     align-items: flex-end;
   }
   /* makes the top work item fill 2 column spaces */
-  #surf {
+  #projectOne {
     min-height: 30vh;
     flex-basis: 100%;
   }
@@ -277,5 +283,13 @@ footer section ul li {
   /* adds space between the contact list items */
   footer li {
     margin: 0px 10px;
+  }
+
+  figure {
+    height: 100%;
+  }
+
+  #mugshot {
+    height: inherit;
   }
 }
