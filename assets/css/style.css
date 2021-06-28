@@ -201,12 +201,6 @@ footer section ul li {
 #work2 {
   background-image: url("../images/workdaysched.jpg");
 }
-#work3 {
-  background-image: url("../images/QuizActive.png");
-}
-#work4 {
-  background-image: url("../images/passwordgen.jpg");
-}
 
 figure {
 z-index: 100;
