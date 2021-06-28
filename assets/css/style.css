@@ -214,7 +214,7 @@ z-index: 100;
 
 #mugshot {
   height: 128px;
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 /* change layout for screens bigger then 768px */
@@ -235,10 +235,13 @@ z-index: 100;
 
   /* moves the cool subtitle from the center to bottom right and pushes it away from the right side */
   #coolSub {
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
   }
   #coolSub h2 {
-    margin-right: 5%;
+    margin-right: 10px;
+    margin-bottom: -150px;
   }
 
   /* moves the headings inline with the content with a vertical line separation */
@@ -288,6 +291,12 @@ z-index: 100;
     margin: 0px 10px;
   }
 
-  
+  figure {
+    height: 100%;
+  }
+
+  #mugshot {
+    height: inherit;
+  }
 
 }
