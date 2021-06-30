@@ -1,94 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Adrian Cronin's Profile</title>
 </head>
 
-<body>
-    <header class="column">
-        <div class="column">
-            <h1>Adrian Cronin</h1>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#aboutMe">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contactMe">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#">Resume</a>
-                </li>
-            </ul>
+<body id="pageBody">
+    <!-- navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light">
+                    <h1>Adrian Cronin</h1>
+                </a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary" aria-current="page" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#contactMe">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a class="nav-link text-secondary" href="#">Resume</a> TODO: Update Resume-->
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <div id="coolSub" class="column" role="img" aria-label="Fence painted with concentric diadmonds">
-        <figure>
-            <img src="./assets/images/mugshot.jpg" alt="A rare nice picture of me" id="mugshot">
-        </figure>
-        <h2>Full-Stack Web Developer</h2>
+
+    <!-- hero -->
+    <div class="container col-xxl-8 px-4 py-5 bg-dark text-secondary" id="aboutMe">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./assets/images/mugshot.jpg" class="d-block mx-lg-auto img-fluid " alt="Bootstrap Themes"
+                    width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3 text-white">Hi, I'm Adrian.</h1>
+                <p class="lead">
+                    I am an aspiring Full Stack web developer currently enrolled in the University of Washington Coding
+                    Bootcamp. I enjoy playing Tennis and Golf as well as PC and Board Games.
+                    <br>
+                    For the past ten years I have been working in manufacturing but have always had a passion for web
+                    development and am currently making strides towards pursuing that passion.
+                </p>
+            </div>
+        </div>
     </div>
 
-    <main>
-        <section id="aboutMe">
-            <h1>About Me</h1>
-            <div>
-                <p>I am an aspiring Full Stack web developer currently attending the University of Washington Coding Bootcamp. I enjoy playing Tennis and Golf as well as PC and Board Games</p>
-                <br>
-                <p>For the past ten years I have been working in manufacturing but have always had a passion for web development and am currently making strides towards pursuing that passion.</p>
+    <!-- work section -->
+    <main id="work">
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light text-white">My Work</h1>
+                    <p class="lead text-secondary">
+                        Check out some of the work I've done!
+                    </p>
+                </div>
             </div>
         </section>
 
-        <section class="my-box">
-            <h1 id="work">Work</h1>
-            <div class="column">
-                <a class="work" id="projectOne" href="https://michellecoder.github.io/The-Collector/" role="img" aria-label="The Hulk and a small Bio" target="_blank">
-                    <div class="box">
-                        <h3>The Collector</h3>
-                        <p>Group Project</p> 
+        <div class="album py-5 bg-secondary">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow position-relative">
+                            <img src="./assets/images/screenshot3.png" class="bd-placeholder-img card-img-top"
+                                width="100%" height="225" alt="The Collector Thumbnail">
+
+                            <div class="card-body">
+                                <p class="card-text"><strong>The Collector</strong> - A tool to help Marvel fans
+                                    discover new Collectibles, Comics, Storylines and Characters!</p>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://michellecoder.github.io/The-Collector/" target="_blank"
+                                            class="btn btn-sm btn-outline-secondary">View</a>
+                                        <a href="https://github.com/michellecoder/The-Collector" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary">Repo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </a>
-                <a class="work" id="work1" href="https://adriancronin.github.io/WeatherDashboard/" role="img" aria-label="Weather Dashboard" target="_blank">
-                    <div class="box">
-                        <h3>Weather Dashboard</h3>
-                        <p>Homework</p>
+
+
+
+
+
+                    <div class="col">
+                        <div class="card shadow">
+                            <img src="./assets/images/weathdash.jpg" class="bd-placeholder-img card-img-top"
+                                width="100%" height="225" alt="Weather Dashboard Thumbnail">
+
+                            <div class="card-body">
+                                <p class="card-text"><strong>Weather Dashboard</strong> - Search a city and see its
+                                    current weather and 5-Day forecast.</p>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://adriancronin.github.io/WeatherDashboard/" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary">View</a>
+                                        <a href="https://github.com/AdrianCronin/WeatherDashboard" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary">Repo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </a>
-                <a class="work" id="work2" href="https://adriancronin.github.io/Work-Day-Scheduler/" role="img" aria-label="Work Day Scheduler" target="_blank">
-                    <div class="box">
-                        <h3>Work Day Scheduler</h3>
-                        <p>Homework</p>
+
+                    <div class="col">
+                        <div class="card shadow">
+                            <img src="./assets/images/worksched.jpg" class="bd-placeholder-img card-img-top"
+                                width="100%" height="225" alt="Work Day Scheduler Thumbnail">
+
+                            <div class="card-body">
+                                <p class="card-text"><strong>Work Day Scheduler</strong> - A tool to help organize and
+                                    plan your day. </p>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="btn-group">
+                                        <a href="https://adriancronin.github.io/Work-Day-Scheduler/" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary">View</a>
+                                        <a href="https://github.com/AdrianCronin/Work-Day-Scheduler" target="_blank"
+                                        class="btn btn-sm btn-outline-secondary">Repo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </a>
+
+                </div>
 
             </div>
-        </section>
+        </div>
+
     </main>
 
-    <footer class="column">
-        <section>
-            <h1 id="contactMe">Contact Me</h1>
-            <ul>
-                <li>
-                    <a href="mailto:acronindev@gmail.com">Email Me</a>
-                </li>
-                <li>
-                    <a href="https://github.com/AdrianCronin" target="_blank">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/adrian-cronin-4442b5216/" target="_blank">LinkedIn</a>
-                </li>
-            </ul>
-        </section>
-    </footer>
+    <!-- contact section -->
+    <div class="col-md-6" id="contactMe">
+        <div class="h-100 p-5 text-white bg-dark rounded-3">
+            <h2>Contact Me</h2>
+            <p class="text-secondary">Let's work together</p>
+            <a href="mailto:acronindev@gmail.com" class="btn btn-outline-secondary" target="_blank">Email</a>
+            <a href="https://github.com/AdrianCronin" class="btn btn-outline-secondary" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/adrian-cronin-4442b5216/" class="btn btn-outline-secondary"
+                target="_blank">LinkedIn</a>
+        </div>
+    </div>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- my js -->
+    <script src="./assets/js/script.js"></script>
+
 </body>
+
 </html>
