@@ -1,10 +1,11 @@
-import Navbar from './components/Navbar';
+import Navtab from './components/Navtab';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navtab />
+
       <header className="App-header">
         <img src='' className="App-logo" alt="logo" />
         <p>
