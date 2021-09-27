@@ -6,8 +6,8 @@ export default function Navtab() {
     return (
         <Navbar bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">Adrian Cronin</Navbar.Brand>
-                <Nav className="me-auto">
+                <Navbar.Brand href="#home"><h1>Adrian Cronin</h1></Navbar.Brand>
+                <Nav className="">
                     <Nav.Link href="#aboutMe">About Me</Nav.Link>
                     <Nav.Link href="#projects">Projects</Nav.Link>
                     <Nav.Link href="#contact">Contact</Nav.Link>
