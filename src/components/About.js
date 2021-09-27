@@ -9,7 +9,7 @@ export default function About() {
         <Container className="col-xxl-8 px-4 py-5 bg-dark text-secondary" id="aboutMe">
             <Row className="flex-lg-row-reverse align-items-center g-5 py-5">
                 <Col className="col-10 col-sm-8 col-lg-6">
-                    <Image src="../assets/images/mugshot.jpg" className="d-block mx-lg-auto img-fluid " alt=""
+                    <Image src="./assets/images/mugshot.jpg" className="d-block mx-lg-auto img-fluid " alt=""
                         width="700" height="500" loading="lazy" />
                 </Col>
                 <Col className="col-lg-6">

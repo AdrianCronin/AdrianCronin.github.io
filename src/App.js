@@ -1,5 +1,6 @@
 import Navtab from './components/Navtab';
 import About from './components/About';
+import Projects from './components/Projects';
 
 import './App.css';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Navtab />
       <About />
+      <Projects />
     </div>
   );
 }
