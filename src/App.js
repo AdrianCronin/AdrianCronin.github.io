@@ -1,7 +1,7 @@
 import Navtab from './components/Navtab';
 import About from './components/About';
 import Projects from './components/Projects';
-import Container from 'react-bootstrap/Container'
+import Contact from './components/Contact';
 
 import './App.css';
 
@@ -11,6 +11,7 @@ function App() {
       <Navtab />
       <About />
       <Projects />
+      <Contact />
     </div>
   );
 }
