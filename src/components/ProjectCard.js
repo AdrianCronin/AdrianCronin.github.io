@@ -1,7 +1,6 @@
 import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card'
-import ButtonGroup from 'react-bootstrap/ButtonGroup'
-
+import Card from 'react-bootstrap/Card';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 export default function ProjectCard(props) {
     return (

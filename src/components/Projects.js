@@ -1,12 +1,15 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import ButtonGroup from 'react-bootstrap/ButtonGroup'
-import Card from 'react-bootstrap/Card'
+import ProjectCard from './ProjectCard'
+
+// project data to be used as props
+const projectData = require('./ProjectData');
+console.log(projectData);
 
 export default function Projects() {
     return (
-        <main id="projects">x`
+        <main id="projects">
 
             <Container className="py-5 text-center">
                 <Row className="py-lg-5">
@@ -24,7 +27,8 @@ export default function Projects() {
                     <Row className="row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
 
                         {/* Cup of Sugear */}
-                        <Col>
+                        <ProjectCard />
+                        {/* <Col>
                             <Card className="shadow position-relative">
                                 <Card.Img variant="top" src="./assets/images/cupofsugear.png" width="100%" height="225" alt="Cup of Sugar Thumbnail" />
 
@@ -43,7 +47,7 @@ export default function Projects() {
                                     </div>
                                 </Card.Body>
                             </Card>
-                        </Col>
+                        </Col> */}
 
                         {/* Tech Blog */}
                         <div className="col">
