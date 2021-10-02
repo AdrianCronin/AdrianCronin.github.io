@@ -11,7 +11,7 @@ export default function Navtab() {
                     <Nav.Link href="#aboutMe">About Me</Nav.Link>
                     <Nav.Link href="#projects">Projects</Nav.Link>
                     <Nav.Link href="#contact">Contact</Nav.Link>
-                    <Nav.Link href="#resume">Resume</Nav.Link>
+                    <Nav.Link href="./assets/pdf/AdrianCroninResume.pdf" target="_blank">Resume</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
