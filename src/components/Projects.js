@@ -1,13 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
-import Nav from 'react-bootstrap/Nav';
+import ButtonGroup from 'react-bootstrap/ButtonGroup'
 import Card from 'react-bootstrap/Card'
 
 export default function Projects() {
     return (
-        <main id="projects">
+        <main id="projects">x`
 
             <Container className="py-5 text-center">
                 <Row className="py-lg-5">
@@ -26,25 +25,24 @@ export default function Projects() {
 
                         {/* Cup of Sugear */}
                         <Col>
-                            <div className="card shadow position-relative">
-                                <img src="./assets/images/cupofsugear.png" className="bd-placeholder-img card-img-top"
-                                    width="100%" height="225" alt="Cup of Sugar Thumbnail" />
+                            <Card className="shadow position-relative">
+                                <Card.Img variant="top" src="./assets/images/cupofsugear.png" width="100%" height="225" alt="Cup of Sugar Thumbnail" />
 
-                                <div className="card-body">
-                                    <p className="card-text"><strong>Cup of Sugear</strong> - A tool to help neighbors
-                                        borrow/loan/exchange items.</p>
-                                    <p className="card-text"><strong>Technologies Used</strong> - HTML, CSS, JavaScript,
-                                        Node.js, Express.js, MySQL, Sequelize, Handlebars</p>
+                                <Card.Body >
+                                    <Card.Text><strong>Cup of Sugear</strong> - A tool to help neighbors
+                                        borrow/loan/exchange items.</Card.Text>
+                                    <Card.Text><strong>Technologies Used</strong> - HTML, CSS, JavaScript,
+                                        Node.js, Express.js, MySQL, Sequelize, Handlebars</Card.Text>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <div className="btn-group">
-                                            <a href="https://cup-of-sugear.herokuapp.com/" target="_blank"
+                                        <ButtonGroup>
+                                            <a rel="noreferrer" href="https://cup-of-sugear.herokuapp.com/" target="_blank"
                                                 className="btn btn-sm btn-outline-secondary">View</a>
-                                            <a href="https://github.com/AdrianCronin/Cup-of-Sugear" target="_blank"
+                                            <a rel="noreferrer" href="https://github.com/AdrianCronin/Cup-of-Sugear" target="_blank"
                                                 className="btn btn-sm btn-outline-secondary">Repo</a>
-                                        </div>
+                                        </ButtonGroup>
                                     </div>
-                                </div>
-                            </div>
+                                </Card.Body>
+                            </Card>
                         </Col>
 
                         {/* Tech Blog */}
