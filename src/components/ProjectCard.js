@@ -6,7 +6,7 @@ export default function ProjectCard(props) {
     return (
         <Col>
             <Card className="shadow position-relative">
-                <Card.Img variant="top" src={props.image} width="100%" height="225" alt={props.alt} />
+                <Card.Img variant="top" src={`./assets/images/${props.image}`} width="100%" height="225" alt={props.alt} />
 
                 <Card.Body >
                     <Card.Text><strong>{props.title}</strong> - {props.description}</Card.Text>
