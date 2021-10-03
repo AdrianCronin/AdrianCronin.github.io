@@ -5,7 +5,6 @@ import ProjectCard from './ProjectCard'
 
 // project data to be used as props
 const projectData = require('./ProjectData');
-console.log(projectData);
 
 export default function Projects() {
     return (
@@ -25,7 +24,7 @@ export default function Projects() {
             <div className="album py-5 bg-secondary">
                 <Container>
                     <Row className="row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
-                        {projectData.map((project) => (
+                        {projectData.map((project, index) => (
                             <ProjectCard
                                 title={project.title}
                                 description={project.description}
@@ -33,6 +32,7 @@ export default function Projects() {
                                 tools={project.tools}
                                 deployed={project.deployed}
                                 repo={project.repo}
+                                key={index}
                             />
                         ))}
                     </Row>

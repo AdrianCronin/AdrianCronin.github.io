@@ -12,7 +12,7 @@ export default function About() {
                     <Image src="./assets/images/mugshot.jpg" className="d-block mx-lg-auto img-fluid " alt=""
                         width="700" height="500" loading="lazy" />
                 </Col>
-                <Col className="col-lg-6">
+                <Col className="col-lg-6 col-sm-9">
                     <h1 className="display-5 fw-bold lh-1 mb-3 text-white">Hi, I'm Adrian.</h1>
                     <p className="lead">
                         I am a Full Stack web developer with a passion for learning and constant self-improvement.
