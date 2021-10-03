@@ -40,5 +40,5 @@ export default function Projects() {
             </div>
 
         </main>
-    ); // end return
-}; // end function
+    ); 
+}; 
