@@ -5,7 +5,6 @@ import Image from 'react-bootstrap/Image';
 
 export default function About() {
     return (
-
         <Container className="col-xxl-8 px-4 py-5 bg-dark text-secondary" id="aboutMe">
             <Row className="flex-lg-row-reverse align-items-center g-5 py-5">
                 <Col className="col-10 col-sm-8 col-lg-6">
@@ -31,8 +30,5 @@ export default function About() {
                 </Col>
             </Row>
         </Container>
-
-
-
-    ); // end return
-}; // end function
+    ); 
+}; 
