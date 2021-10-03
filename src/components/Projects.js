@@ -25,9 +25,18 @@ export default function Projects() {
             <div className="album py-5 bg-secondary">
                 <Container>
                     <Row className="row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
+                        {projectData.map((project) => (
+                            <ProjectCard
+                                title={project.title}
+                                description={project.description}
+                                image={project.image}
+                                tools={project.tools}
+                                deployed={project.deployed}
+                                repo={project.repo}
+                            />
+                        ))}
 
                         {/* Cup of Sugear */}
-                        <ProjectCard />
                         {/* <Col>
                             <Card className="shadow position-relative">
                                 <Card.Img variant="top" src="./assets/images/cupofsugear.png" width="100%" height="225" alt="Cup of Sugar Thumbnail" />

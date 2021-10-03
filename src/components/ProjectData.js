@@ -3,6 +3,7 @@ const ProjectData = [
         title: "Cup of Sugear",
         description: "A tool to help neighbors borrow/loan/exchange items.",
         image: "./assets/images/cupofsugear.png",
+        alt: "Cup of Sugar Thumbnail",
         tools: [
             "HTML",
             "CSS",
