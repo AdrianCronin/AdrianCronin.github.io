@@ -10,7 +10,7 @@ export default function ProjectCard(props) {
 
                 <Card.Body >
                     <Card.Text><strong>{props.title}</strong> - {props.description}</Card.Text>
-                    <Card.Text><strong>Technologies Used</strong> - {props.tools}</Card.Text>
+                    <Card.Text><strong>Technologies Used</strong> - {props.tools.join(', ')}</Card.Text>
                     <div className="d-flex justify-content-center align-items-center">
                         <ButtonGroup>
                             <a rel="noreferrer" href={props.deployed} target="_blank"
