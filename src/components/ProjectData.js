@@ -1,5 +1,21 @@
 const ProjectData = [
     {
+        title: "Bfanz",
+        description: "A web app for Cult Classic and B-Movie enthusiasts to search, share and rate their favorite films",
+        image: "bfanz.jpg",
+        alt: "Bfanz Thumbnail",
+        tools: [
+            "React.js",
+            "MaterialUI",
+            "Node.js",
+            "Express.js",
+            "GraphQL",
+            "MongoDB"
+        ],
+        deployed: "https://bfanz.herokuapp.com/",
+        repo: "https://github.com/AdrianCronin/bfanz"
+    },
+    {
         title: "Cup of Sugear",
         description: "A tool to help neighbors borrow/loan/exchange items.",
         image: "cupofsugear.png",
