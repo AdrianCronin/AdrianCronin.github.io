@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import ProjectCard from './ProjectCard'
 
 // project data to be used as props
-const projectData = require('./ProjectData');
+const projectData = require('../data/ProjectData');
 
 export default function Projects() {
     return (
