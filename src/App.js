@@ -1,16 +1,9 @@
-import Navtab from './components/Navtab';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import './index.css';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App bg-dark">
-      <Navtab />
-      <About />
-      <Projects />
-      <Contact />
+    <div>
+      <Home />
     </div>
   );
 }
