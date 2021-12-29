@@ -1,13 +1,17 @@
+import './style.css';
 
 export default function Navbar() {
 
     return (
-        <nav role="navigation">
-            <ul id="menu">
-                <a href="#"><li>About Me</li></a>
-                <a href="#"><li>Projects</li></a>
-                <a href="#"><li>Contact</li></a>
-                <a href="#"><li>Resume</li></a>
+        <nav role="navigation" id="menu">
+            <div id="nav-logo">
+                ABC
+            </div>
+            <ul class="nav-list">
+                <a href="#"><li class="nav-item">About Me</li></a>
+                <a href="#"><li class="nav-item">Projects</li></a>
+                <a href="#"><li class="nav-item">Contact</li></a>
+                <a href="#"><li class="nav-item">Resume</li></a>
             </ul>
         </nav>
     );

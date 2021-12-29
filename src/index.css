@@ -75,19 +75,25 @@ select {
 
 /*-------- RESET ABOVE THIS--------*/
 
-
+:root {
+  --green: #00B295;
+  --grey: #C9DAEA;
+  --black: #191516;
+}
 
 .flex {
   display: flex;
 }
 
 body {
-
-  background: #232323;
-  color: #cdcdcd;
+  background: var(--black);
+  color: var(--grey);
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
