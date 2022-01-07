@@ -12,4 +12,4 @@ https://adriancronin.github.io/
 * CSS
 * JavaScript
 * React
-* React-Boostrap
+* React-Bootstrap
